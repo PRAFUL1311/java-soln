@@ -7,7 +7,7 @@ public class transposemat {
         };
         
        for(int k=0;k<arr.length;k++){
-    for(int t=k+1;t<arr[0].length;t++){
+    for(int t=0;t<k;t++){
        int temp=arr[k][t];
        arr[k][t]=arr[t][k];
        arr[t][k]=temp;
